@@ -1,0 +1,23 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .search {
+        width: 40%;
+    }
+
+    .profile {
+        select {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            font-size: 16px;
+            color: #333;
+            appearance: none; /* Default dropdown o'zgartirishlar uchun */
+            -webkit-appearance: none; /* Safari uchun */
+            -moz-appearance: none; /* Firefox uchun */
+        }
+    }
+}

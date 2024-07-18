@@ -20,6 +20,22 @@ const dashboard = {
       url: '/dashboard/default',
       icon: icons.DashboardOutlined,
       breadcrumbs: false
+    },
+    {
+      id: 'Updates',
+      title: 'Updates',
+      type: 'item',
+      url: '/dashboard/default',
+      icon: icons.DashboardOutlined,
+      breadcrumbs: false
+    },
+    {
+      id: 'Settings',
+      title: 'Settings',
+      type: 'item',
+      url: '/dashboard/default',
+      icon: icons.DashboardOutlined,
+      breadcrumbs: false
     }
   ]
 };
